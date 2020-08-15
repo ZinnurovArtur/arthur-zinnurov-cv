@@ -20,6 +20,9 @@
 .bg-primary {
   background-color: rgba(0,0,0,0.8)!important;
   position: relative;
+  -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
   background-size:cover;
   background-position: center center;
   background-repeat: no-repeat;
