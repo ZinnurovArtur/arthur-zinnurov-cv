@@ -20,9 +20,11 @@
 .bg-primary {
   background-color: rgba(0,0,0,0.8)!important;
   position: relative;
+
   -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
+
   background-size:cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -164,14 +166,36 @@ body {
   display: block;
 }
 
+
 .img-fluid, .img-thumbnail {
   max-width: 100%;
   height: 100%;
   width: 100%;
+
+
 }
+.img-fluid-mobile{
+  display: none;
+}
+@media  (max-width:400px){
+  .img-fluid, .img-thumbnail{
+    width: 100%;
+    height: 50%;
+    transform:  translateY(50%);
+    display: block;
+
+    
+
+  }
+}
+
+
 
 .carousel-item {
   display: block;
+
+
+
   width: 100%;
   height: auto;
 }
