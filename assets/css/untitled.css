@@ -589,3 +589,10 @@ body {
 #btn btn-secondary shadow btn-xl js-scroll-trigger{
 	background-color:  black;
 }
+.row.row-bottom{
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
