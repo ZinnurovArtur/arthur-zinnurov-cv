@@ -327,7 +327,7 @@ img {
 @media screen and (max-width: 1200px) {
   .col-sm-12.col-md-6 {
     font-family: "Noto Sans",sans-serif;
-    font-size: 11px;
+    font-size: 13px;
     width: 100%;
   }
 }
@@ -369,7 +369,7 @@ img {
 @media screen and (max-width: 1200px) {
   .col-sm-12.col-md-6 h4 {
     font-family: "Noto Sans",sans-serif;
-    font-size: 12px;
+    font-size: 20px;
     width: 100%;
   }
 }
