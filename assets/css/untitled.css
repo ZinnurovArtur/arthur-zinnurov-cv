@@ -100,7 +100,7 @@ a:hover {
     border-color: transparent;
     background-color: black;
     position: fixed;
-    width: 65%;
+    width: auto;
     margin: 0px auto;
     left: 0;
     right: 0;
@@ -537,6 +537,8 @@ body {
   margin: 10px;
 }
 
+
+
 .email-column {
   padding: 15px;
   -webkit-box-shadow: 0px 0px 23px -15px rgba(0,0,0,1);
@@ -552,6 +554,11 @@ body {
   height: auto;
   max-width: 200px;
 }
+
+
+
+
+
 
 .fa.fa-envelope-o.fa-3x.mb-3.sr-contact {
   font-size: 5em;
