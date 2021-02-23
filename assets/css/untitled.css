@@ -157,15 +157,14 @@ body {
   margin-top: 100px;
 }
 
-.carousel-inner {
-  margin: 0px;
-  height: auto;
-  width: 100%;
-  overflow: hidden;
-  position: relative;
-  display: block;
-}
 
+.carousel {
+  width:640px;
+  height:360px;
+}
+.ml-overlay-container{
+  height: 360px;
+}
 
 .img-fluid, .img-thumbnail {
   max-width: 100%;
@@ -191,14 +190,7 @@ body {
 
 
 
-.carousel-item {
-  display: block;
 
-
-
-  width: 100%;
-  height: auto;
-}
 
 hr {
   max-width: 50px;
